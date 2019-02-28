@@ -1,0 +1,16 @@
+{
+  "name": "arturyukhnevich/contactpage",
+  "description": "This is a simple package for Magento 1.9.",
+  "version": "0.1.0",
+  "license": "OSL-3.0",
+  "type": "magento-module",
+  "authors": [
+    {
+      "name": "Artur Yukhnevich",
+      "email": "arturyukhnevich@gmail.com"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}

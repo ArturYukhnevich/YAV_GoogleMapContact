@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <YAV_ContactPage>
+            <version>0.1.0</version>
+        </YAV_ContactPage>
+    </modules>
+    <global>
+        <helpers>
+            <ContactPage>
+                <class>YAV_ContactPage_Helper</class>
+            </ContactPage>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <ContactPage module="ContactPage">
+                    <file>ContactPage.xml</file>
+                </ContactPage>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+    </admin>
+    <adminhtml>
+    </adminhtml>
+    <default>
+        <ContactPage>
+            <settings>
+                <enabled>1</enabled>
+                <address>Address</address>
+                <phone>+46846135646</phone>
+                <latitude>-34.398</latitude>
+                <longitude>150.884</longitude>
+                <infoblock><![CDATA[
+<div class="row"><div class="col-sm-12">
+    <i class="icon-phone"></i>
+    <p>0201 203 2032</p>
+    <p>0201 203 2032</p>
+</div></div>
+<div class="row"><div class="col-sm-12">
+    <i class="icon-mobile"></i>
+    <p>201-123-3922</p>
+    <p>302-123-3928</p>
+</div></div>
+<div class="row"><div class="col-sm-12">
+    <i class="icon-mail-alt"></i>
+    <p>porto@gmail.com</p>
+    <p>porto@portotemplate.com</p>
+</div></div>
+<div class="row"><div class="col-sm-12">
+    <i class="icon-skype"></i>
+    <p>porto_skype</p>
+    <p>proto_template</p>
+</div></div>
+                ]]></infoblock>
+            </settings>
+        </ContactPage>
+    </default>
+</config>

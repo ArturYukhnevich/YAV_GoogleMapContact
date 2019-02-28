@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <YAV_ContactPage>
+            <active>true</active>
+            <codePool>local</codePool>
+        </YAV_ContactPage>
+    </modules>
+</config>
