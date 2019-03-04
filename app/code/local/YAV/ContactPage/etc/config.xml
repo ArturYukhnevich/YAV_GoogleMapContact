@@ -6,6 +6,11 @@
         </YAV_ContactPage>
     </modules>
     <global>
+        <blocks>
+            <ContactPage>
+                <class>YAV_ContactPage_Block</class>
+            </ContactPage>
+        </blocks>
         <helpers>
             <ContactPage>
                 <class>YAV_ContactPage_Helper</class>
@@ -29,32 +34,11 @@
         <ContactPage>
             <settings>
                 <enabled>1</enabled>
-                <address>Address</address>
-                <phone>+46846135646</phone>
-                <latitude>-34.398</latitude>
-                <longitude>150.884</longitude>
-                <infoblock><![CDATA[
-<div class="row"><div class="col-sm-12">
-    <i class="icon-phone"></i>
-    <p>0201 203 2032</p>
-    <p>0201 203 2032</p>
-</div></div>
-<div class="row"><div class="col-sm-12">
-    <i class="icon-mobile"></i>
-    <p>201-123-3922</p>
-    <p>302-123-3928</p>
-</div></div>
-<div class="row"><div class="col-sm-12">
-    <i class="icon-mail-alt"></i>
-    <p>porto@gmail.com</p>
-    <p>porto@portotemplate.com</p>
-</div></div>
-<div class="row"><div class="col-sm-12">
-    <i class="icon-skype"></i>
-    <p>porto_skype</p>
-    <p>proto_template</p>
-</div></div>
-                ]]></infoblock>
+                <zoom>16</zoom>
+                <!--<address>Address</address>-->
+                <!--<phone>+46846135646</phone>-->
+                <!--<latitude>-34.398</latitude>-->
+                <!--<longitude>150.884</longitude>-->
             </settings>
         </ContactPage>
     </default>

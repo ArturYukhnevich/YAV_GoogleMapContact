@@ -1,12 +1,30 @@
 <?xml version="1.0" ?>
 <layout version="0.1.0">
     <contacts_index_index>
-        <reference name='content'>
-            <block type="cms/block" name="block_contact_top" before="-">
-                <action method="setTemplate">
-                    <template>ContactPage/contacts/googlemap.phtml</template>
-                </action>
-            </block>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
         </reference>
+        <reference name="top.container">
+            <block type="core/template" name="google_map" template="ContactPage/contacts/googlemap.phtml"/>
+            <!--<remove name="pageHeader"/>-->
+        </reference>
+
+        <!--<reference name="content">-->
+            <!--<action method="setTemplate">-->
+                <!--<template>ContactPage/contacts/googlemap.phtml</template>-->
+            <!--</action>-->
+        <!--</reference>-->
+        <!--<reference name="cms/block">-->
+            <!--<block type="myextension/block" name="myextension.block" as="myextension_block" template="ContactPage/contacts/googlemap.phtml">-->
+                <!--<action method="setChild">-->
+                    <!--<name>totals</name>-->
+                    <!--<block>totals</block>-->
+                <!--</action>-->
+            <!--</block>-->
+            <!--<action method="setChild">-->
+                <!--<name>totals</name>-->
+                <!--<block>myextension.block</block>-->
+            <!--</action>-->
+        <!--</reference>-->
     </contacts_index_index>
 </layout>
