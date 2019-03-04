@@ -1,0 +1,9 @@
+app/etc/modules/YAV_ContactPage.xml app/etc/modules/YAV_ContactPage.xml
+app/code/local/YAV/ContactPage/etc/system.xml app/code/local/YAV/ContactPage/etc/system.xml
+app/code/local/YAV/ContactPage/etc/config.xml app/code/local/YAV/ContactPage/etc/config.xml
+app/code/local/YAV/ContactPage/etc/adminhtml.xml app/code/local/YAV/ContactPage/etc/adminhtml.xml
+app/code/local/YAV/ContactPage/Model/Source/Status.php app/code/local/YAV/ContactPage/Model/Source/Status.php
+app/code/local/YAV/ContactPage/Block/Adminhtml/AddressesField.php app/code/local/YAV/ContactPage/Block/Adminhtml/AddressesField.php
+app/code/local/YAV/ContactPage/Helper/Data.php app/code/local/YAV/ContactPage/Helper/Data.php
+app/design/frontend/base/default/template/ContactPage/contacts/googlemap.phtml app/design/frontend/base/default/template/ContactPage/contacts/googlemap.phtml
+app/design/frontend/base/default/layout/ContactPage.xml app/design/frontend/base/default/layout/ContactPage.xml
